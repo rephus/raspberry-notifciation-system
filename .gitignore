@@ -1,0 +1,5 @@
+config.cfg
+*.kate-swp
+.directory
+*.pyc
+*.log

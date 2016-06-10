@@ -1,0 +1,23 @@
+[config]
+#Time in minutes for unavailable devices
+notification-warning = 10
+#Time in hours before it sends the email again
+email-frequency = 8
+notification-email = <your-email@domain.com>
+
+[network]
+nmap_enabled = True
+
+[gmail]
+user = <your-email@domain.com>
+password = <your-password>
+
+#Check if all the MACs addresses are unreachable before it sends the message
+[macs]
+my-device = <my-mac>
+
+[ips]
+my-device = <my-ip>
+
+[bathroom]
+value-threshold = 100
